@@ -2,9 +2,16 @@
 {
     font-size: 16pt;
 }
+
 .bg {
     background-color: plum;
 }
+
 a{
     cursor: pointer;
 }
+
+ul.navbar-nav{
+    list-style: none;
+}
+
