@@ -20,7 +20,7 @@ export class TemaService {
   }
 
   getByNomeTema(nome: string): Observable<Tema[]>{
-    return this.http.get<Tema[]>(`http://localhost:8080/temas/nome/${nome}`, this.token)
+    return this.http.get<Tema[]>(`http://localhost:8080/tema/nome/${nome}`, this.token)
   }
 
   getByIdTema(id: number): Observable<Tema>{
